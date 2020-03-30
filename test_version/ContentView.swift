@@ -19,3 +19,9 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+struct ContentView: View {
+    var body: some View {
+        Text("Hello second times, World!")
+    }
+}
+
